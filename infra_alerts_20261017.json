@@ -1,0 +1,26 @@
+{
+    "anomalies": [
+        {
+            "alert_id": "ERR-CPU-7373",
+            "trigger_time": "2026-10-17T17:26:13.926849+00:00",
+            "offending_service": "auth-service-us-east-88",
+            "metrics_captured": {
+                "cpu_utilization_pct": 91.37,
+                "memory_utilization_pct": 86.74,
+                "network_latency_ms": 17
+            },
+            "severity": "HIGH"
+        },
+        {
+            "alert_id": "ERR-CPU-6960",
+            "trigger_time": "2026-10-17T17:26:13.926999+00:00",
+            "offending_service": "auth-service-us-east-91",
+            "metrics_captured": {
+                "cpu_utilization_pct": 94.6,
+                "memory_utilization_pct": 69.94,
+                "network_latency_ms": 61
+            },
+            "severity": "HIGH"
+        }
+    ]
+}
